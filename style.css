@@ -1,0 +1,36 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 10px;
+  /* how much padding every item would have between them */
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  color: white;
+  background-color: olivedrab;
+  font-size: 25px;
+ /* this will not affect h1 as we have specifically given its values */
+}
+
+h1{
+    color: goldenrod;
+    font-size: 100px;
+}
+
+button{
+  font-size: 18px;
+  color: green;
+  background-color:goldenrod;
+  border-radius: 7%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+button:hover{
+  background-color: olive ;
+  color: white ;
+}
